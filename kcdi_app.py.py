@@ -180,7 +180,7 @@ if uploaded_file:
             col1, col2 = st.columns([1, 2])
             with col1:
                 st.metric(label="Índice KCDI", value=f"{kcdi:.4f}")
-               st.info("El KCDI se calcula como: $H_{Shannon} \\times \\bar{W}$")
+                st.info("El KCDI se calcula como: $H_{Shannon} \\times \\bar{W}$")
                 st.metric(label="Índice de Shannon ($H_{Shannon}$)", value=f"{H_shannon:.4f}")
                 st.metric(label="Factor de Ponderación ($\bar{W}$)", value=f"{W_bar:.4f}")
             with col2:
