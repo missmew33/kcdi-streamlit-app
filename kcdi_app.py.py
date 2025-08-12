@@ -10,10 +10,6 @@ Original file is located at
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-==============================================================================
-Aplicación Web para Análisis del Índice KCDI
-Análisis de Justicia Epistémica en Bases de Datos de Scopus
-===============
 """
 import streamlit as st
 import pandas as pd
