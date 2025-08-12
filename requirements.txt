@@ -2,5 +2,6 @@ streamlit
 pandas
 numpy
 plotly
+matplotlib
 gender-guesser
 country-converter
